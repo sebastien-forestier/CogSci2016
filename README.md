@@ -5,7 +5,7 @@ We provide source code of the experiments (Licence GPLv3), and data analysis.
 
 We do not provide data as it is 300GB
 
-We explain how to re-generated it (generating the whole data is 6 conditions x 100 trials x 30 minutes).
+We explain how to re-generate it (generating the whole data is 6 conditions x 100 trials x 30 minutes).
 
 ## Experiments ##
 * [notebook](http://nbviewer.jupyter.org/github/sebastien-forestier/CogSci2016/blob/master/notebook/experiments.ipynb) describing how to run the experiments
