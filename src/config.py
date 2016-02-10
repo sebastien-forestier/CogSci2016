@@ -1,7 +1,7 @@
 import numpy as np
 
 from explauto.utils.config import make_configuration
-from explauto.sensorimotor_model.nearest_neighbor import NearestNeighbor
+from explauto.sensorimotor_model.non_parametric import NonParametric
 from supervisor import Supervisor
 from environment import CogSci2016Environment
 
@@ -79,8 +79,9 @@ class Config(object):
         self.choose_children_local = (supervisor_ccl == 'local')
         
         self.sms = {
-            'knn1': (NearestNeighbor, {'sigma_ratio': 0.01}),
+            'knn1': (NonParametric, {'fwd': 'NN', 'inv': 'NN', 'sigma_explo_ratio':0.01}),
         }
+          
           
         sm = 'knn1'
         im_mode = 'sg'
