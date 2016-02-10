@@ -302,7 +302,7 @@ class Supervisor(Observable):
         y = self.set_ms(s=s)[s_space]      
         if mode == "competence":
             if local:
-                competences = [- self.modules[pmid].sensorimotor_model.dataset.nn_y(y, k=1)[0][0] for pmid in possible_mids]
+                competences = [- self.modules[pmid].sensorimotor_model.model.imodel.fmodel.dataset.nn_y(y, k=1)[0][0] for pmid in possible_mids]
             else:
                 competences = [self.modules[pmid].competence() for pmid in possible_mids]
             return possible_mids[np.array(competences).argmax()]
