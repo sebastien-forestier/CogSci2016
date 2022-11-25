@@ -8,7 +8,7 @@ We do not provide data as it is 300GB
 We explain how to re-generate it (generating the whole data is 6 conditions x 100 trials x 30 minutes).
 
 ## Paper
-Here is the CogSci [paper](http://sforestier.com/sites/default/files/Forestier2016Curiosity.pdf).
+Here is the CogSci [paper](https://hal.archives-ouvertes.fr/hal-01354013/file/paper0325.pdf).
 
 ## Video 
 Here is a [video](https://www.youtube.com/watch?v=08TsrosPPwU) of the setup. 
